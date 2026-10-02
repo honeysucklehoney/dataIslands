@@ -1,0 +1,148 @@
+/* CSS files add styling rules to your content */
+
+div{
+
+
+
+}
+
+
+body {
+  background: whitesmoke;
+  transition-property: background;
+  trnasition-duration: 10s;
+  font-family: helvetica, arial, sans-serif;
+  margin: 1em;
+  padding: 1px;
+    -webkit-animation: bgcolor 30s infinite;
+    animation: bgcolor 60s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+
+
+}
+
+
+@keyframes bgcolor {
+    0% {
+        background-color: whitesmoke;
+    }
+
+    30% {
+        background-color: lightcyan;
+    }
+
+
+    40% {
+        background-color: mintcream;
+    }
+
+  50% {
+
+    background-color: mistyrose;
+
+  }
+
+    60% {
+        background-color: whitesmoke;
+    }
+
+    80% {
+      background-color: aliceblue;
+  }
+
+  100%{
+          background-color: beige;
+
+
+  }
+}
+
+
+
+h1 {
+
+
+  font-family: Bagnard;
+  color: cornsilk;
+  text-align: center;
+  poisition: absolute;
+  font-size: 60px;
+  text-shadow: 0 0 50px royalblue;
+  padding: 20px;
+}
+
+h1 span {
+
+    text-transform: uppercase;
+      transition-property: background;
+  margin: 10px;
+      transition-duration: 10s;
+   position: sticky;
+  position: -webkit-sticky;
+}
+
+h1 span:hover{
+
+background-color: blue;
+
+}
+
+/* blockquote{
+
+  font-family: Bagnard;
+  color: royalblue;
+  opacity: 30%;
+  transform: rotate(-90deg);
+  margins: 0px;
+  position: absolute;
+  text-align: left;
+
+} */
+
+
+p{
+
+  color: blue;
+    background:cornsilk;
+  padding: 4%;
+  padding-top: 100px;
+  padding-bottom: : 100px;
+  border-style: outset;
+
+
+}
+
+img{
+  width: 600px;
+    display: block;
+   text-align: left;
+  margin: auto;
+
+}
+
+
+div{
+    padding: 50px;
+
+
+}
+
+  @media screen and (max-width: 600px) {
+
+  h1{
+
+    font-size: 40px;
+
+
+
+  }
+
+
+    img{
+      width: 100px;
+        display: block;
+       text-align: center;
+      margin: auto;
+
+    }
